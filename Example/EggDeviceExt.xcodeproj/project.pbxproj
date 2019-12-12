@@ -31,7 +31,7 @@
 		045801713412A4E8F95524BD /* Pods-EggDeviceExt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggDeviceExt_Example.debug.xcconfig"; path = "Target Support Files/Pods-EggDeviceExt_Example/Pods-EggDeviceExt_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		05856A41A26D56E557D55740 /* Pods_EggDeviceExt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggDeviceExt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D494335FEB417722B2CD468 /* Pods_EggDeviceExt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggDeviceExt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		459EAD4CB4016DCADAC23CD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		459EAD4CB4016DCADAC23CD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EggDeviceExt_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggDeviceExt_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		74ED079A9DBB10A2F7C2BF8A /* Pods-EggDeviceExt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggDeviceExt_Example.release.xcconfig"; path = "Target Support Files/Pods-EggDeviceExt_Example/Pods-EggDeviceExt_Example.release.xcconfig"; sourceTree = "<group>"; };
-		85D5C8ABD2F268625112EF26 /* EggDeviceExt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EggDeviceExt.podspec; path = ../EggDeviceExt.podspec; sourceTree = "<group>"; };
+		85D5C8ABD2F268625112EF26 /* EggDeviceExt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EggDeviceExt.podspec; path = ../EggDeviceExt.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CFE0D6F75425C1E60D8A83A6 /* Pods-EggDeviceExt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggDeviceExt_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EggDeviceExt_Tests/Pods-EggDeviceExt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F8AC2C73D82CB487D1AE378F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F8AC2C73D82CB487D1AE378F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FEA92A0FC4BEA23C77174905 /* Pods-EggDeviceExt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggDeviceExt_Tests.release.xcconfig"; path = "Target Support Files/Pods-EggDeviceExt_Tests/Pods-EggDeviceExt_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				CFE0D6F75425C1E60D8A83A6 /* Pods-EggDeviceExt_Tests.debug.xcconfig */,
 				FEA92A0FC4BEA23C77174905 /* Pods-EggDeviceExt_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

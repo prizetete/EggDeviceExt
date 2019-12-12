@@ -1,0 +1,22 @@
+{
+  "name": "EggDeviceExt",
+  "version": "0.1.0",
+  "summary": "A short description of EggDeviceExt.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/prizetete/EggDeviceExt",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "prizetete": "komkrit.sir@ascendcorp.com"
+  },
+  "source": {
+    "git": "https://github.com/prizetete/EggDeviceExt.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EggDeviceExt/Classes/**/*"
+}

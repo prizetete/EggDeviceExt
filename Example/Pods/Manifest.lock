@@ -1,0 +1,16 @@
+PODS:
+  - EggDeviceExt (0.1.0)
+
+DEPENDENCIES:
+  - EggDeviceExt (from `../`)
+
+EXTERNAL SOURCES:
+  EggDeviceExt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EggDeviceExt: 213b99a77fab5e794a0950dc27e4d6ed3d539568
+
+PODFILE CHECKSUM: ed6cab665430a8bde1d31d7846a924e208aab888
+
+COCOAPODS: 1.8.4
