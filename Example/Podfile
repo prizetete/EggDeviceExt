@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EggDeviceExt_Example' do
+  pod 'EggDeviceExt', :path => '../'
+
+  target 'EggDeviceExt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
