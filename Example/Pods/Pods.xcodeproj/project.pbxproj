@@ -12,7 +12,7 @@
 		5E417D12A7ABFFFB36ECA8BF7C97216B /* Pods-EggDeviceExt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DD8ECC526136EBB1F35CC0D8BEBB8A /* Pods-EggDeviceExt_Tests-dummy.m */; };
 		6A20A78FF8D16BBE25E23867E42AE6B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		907F9DD9EB5A032AF52B5D2CEAE21997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		94149FA023A20012007BCCF7 /* EggDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94149F9F23A20012007BCCF7 /* EggDeviceExt.swift */; };
+		9414A01A23A214C2007BCCF7 /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9414A01923A214C2007BCCF7 /* UIDeviceExt.swift */; };
 		9BFB07DE3307A2E0E1650F6D37C57FF1 /* Pods-EggDeviceExt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67778CAEB0474F1A808AA6B74D2C5191 /* Pods-EggDeviceExt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C81D134283D23FE3D561AE537D23EA69 /* EggDeviceExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44A95A7052CCEFEC5227B703EE885BC1 /* EggDeviceExt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCC819CE021D5095EE6D4A4E6F1A79C8 /* Pods-EggDeviceExt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 750B378D32DEFC957AFE2DCE1D86E6D6 /* Pods-EggDeviceExt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,7 +56,7 @@
 		822ED15315F67AF52B41228F6AF5DB0C /* EggDeviceExt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggDeviceExt-prefix.pch"; sourceTree = "<group>"; };
 		8B3C0B102E06B1A9E5210ED51581E133 /* EggDeviceExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EggDeviceExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F18A8E25289CF49FCC75D9A73E4EB16 /* Pods-EggDeviceExt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EggDeviceExt_Example.modulemap"; sourceTree = "<group>"; };
-		94149F9F23A20012007BCCF7 /* EggDeviceExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggDeviceExt.swift; sourceTree = "<group>"; };
+		9414A01923A214C2007BCCF7 /* UIDeviceExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIDeviceExt.swift; path = EggDeviceExt/Classes/UIDeviceExt.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACF56FE380C3A4315504B91153052F60 /* Pods_EggDeviceExt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggDeviceExt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF9659343B4C732A6AAB28CEAC55347 /* Pods-EggDeviceExt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EggDeviceExt_Example-dummy.m"; sourceTree = "<group>"; };
@@ -102,6 +102,7 @@
 		57911113F7A80B4EF671932A6DF8F1DC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				9414A01923A214C2007BCCF7 /* UIDeviceExt.swift */,
 				FDD903787C4B5FC18E1DB94AAF0A787B /* EggDeviceExt.podspec */,
 				40002B4AA56458B4EFE0EB2DCCA1E034 /* LICENSE */,
 				D495DCC04AD290C693C80BF9CB06B42B /* README.md */,
@@ -137,7 +138,6 @@
 			children = (
 				57911113F7A80B4EF671932A6DF8F1DC /* Pod */,
 				5910FD6FDB40DEDD31CF1CE152EBE1B7 /* Support Files */,
-				94149F9F23A20012007BCCF7 /* EggDeviceExt.swift */,
 			);
 			name = EggDeviceExt;
 			path = ../..;
@@ -379,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DA214535070653D2ADE9EEF98ABD1F2 /* EggDeviceExt-dummy.m in Sources */,
-				94149FA023A20012007BCCF7 /* EggDeviceExt.swift in Sources */,
+				9414A01A23A214C2007BCCF7 /* UIDeviceExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
